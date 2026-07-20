@@ -18,7 +18,7 @@
     "x86_64::./operate_site/dubhe.py": "6855a0d286634e4efa53235a45c32028",
     "x86_64::./operate_site/ptlover.py": "388c20d5a72462b9ad7c0392520b4d0f",
     "x86_64::./operate_site/duckboobee.py": "503743f69026de5bccae40c88bc26035",
-    "x86_64::./operate_site/hdvideo.py": "ed9979efb62527f553ccc26cf0278ae1",
+    "x86_64::./operate_site/hdvideo.py": "d20ded864db923ee6ff978cf91ea11d7",
     "x86_64::./operate_site/joyhd.py": "9f508674af942c006c3e458229c15b03",
     "x86_64::./operate_site/agsvpt.py": "b58b66cb88672ddf2124a90c9125bf4d",
     "x86_64::./operate_site/pterclub.py": "fcc75f62f27bbc7584928ad02f8325ac",
@@ -214,7 +214,7 @@
     "aarch64::./operate_site/dubhe.py": "6855a0d286634e4efa53235a45c32028",
     "aarch64::./operate_site/ptlover.py": "388c20d5a72462b9ad7c0392520b4d0f",
     "aarch64::./operate_site/duckboobee.py": "503743f69026de5bccae40c88bc26035",
-    "aarch64::./operate_site/hdvideo.py": "ed9979efb62527f553ccc26cf0278ae1",
+    "aarch64::./operate_site/hdvideo.py": "d20ded864db923ee6ff978cf91ea11d7",
     "aarch64::./operate_site/joyhd.py": "9f508674af942c006c3e458229c15b03",
     "aarch64::./operate_site/agsvpt.py": "b58b66cb88672ddf2124a90c9125bf4d",
     "aarch64::./operate_site/pterclub.py": "fcc75f62f27bbc7584928ad02f8325ac",
@@ -441,7 +441,7 @@
     "aarch64::release/ptfans.cc.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "aarch64::release/www.hitpt.com.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "aarch64::release/www.devtracker.me.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
-    "aarch64::release/commit.sh": "6a3cca4babb6306580d2a026e4d4a484",
+    "aarch64::release/commit.sh": "23a5d42504dac86c17d858f993140735",
     "aarch64::release/setup.sh": "741c1ba835e312c32a05beae0865c0fc",
     "aarch64::release/ptcafe.club.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "aarch64::release/longpt.org.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
@@ -461,7 +461,7 @@
     "aarch64::release/clean_log.sh": "a41d3487b3ae9c68faef088239fc3ea2",
     "aarch64::release/Dockerfile": "3a425171368ff823ecaa162587583d56",
     "aarch64::release/cspt.top.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
-    "aarch64::release/compiled_hashes.json": "1aa11c31e551bbfeff3cf59a093a915e",
+    "aarch64::release/compiled_hashes.json": "deea4bf77f41baa14aa24494a89317ca",
     "aarch64::release/readme_dtu.txt": "749dd19c33fac8d190ce5d1072e4f829",
     "aarch64::release/njtupt.top.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "aarch64::release/www.hdkyl.in.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
@@ -499,8 +499,7 @@
     "aarch64::release/pt.hdclone.org.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "x86_64::./util/upgrade_checker.py": "ef577ce671314411c9b1e58bce53b74c",
     "aarch64::./util/upgrade_checker.py": "ef577ce671314411c9b1e58bce53b74c",
-    "aarch64::release/atut_serv.cpython-313-x86_64-linux-gnu.so": "5308efd1f25f4e73c95379f10b96df4f",
-    "aarch64::release/upgrade_checker.cpython-313-x86_64-linux-gnu.so": "ea1c8bcf48944ccf6b3a5034ea09fcf2"
+    "aarch64::release/hdvideo.cpython-313-x86_64-linux-gnu.so": "31e2f32a5276cd8f8b6381aa646cf89d"
   },
-  "last_git_commit": "a06192194a53a78bffb1c3a760da04dc05f158e5"
+  "last_git_commit": "001bde0e79969e3973a36a96d23d9a9616d66424"
 }
