@@ -405,6 +405,9 @@ bed_use = ""                                        #必填项，图床使用开
 picture_type = "PNG"                                #使用截图的后缀，JPG|PNG，二选一填入。如果选PNG，会无视源站截图重新截取。如果选JPG，优先用源站，若无则截取为九宫格。
 pieces = 4                                          #截取N张图片
 
+[image_bed.image_domain]                            #图床自定义域名，key为图床名，留空则用默认域名
+pixhost = ""                                         #pixhost域名，可填pixhost.cc或pixhost.to，留空用默认
+
 [image_bed.token]                                   #图床的认证token，建议对免费公共图床建多个账号获取token，防止上传超限。
 agsvpt = ["", "", ""]                               #如果只有一个token：agsv=['1']
 smms = ["", "", ""]                                 #如果有多个token：agsv=['1','2']，agsv=['1','2','3','4']

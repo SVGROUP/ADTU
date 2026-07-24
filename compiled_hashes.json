@@ -99,7 +99,7 @@
     "x86_64::./util/tools.py": "c69195c9f4eae3b2cd80e075181f7e14",
     "x86_64::model_config/each_site.toml": "0e02f1d5d73f701d6f0c22716db45f7c",
     "x86_64::model_config/model-forbidden.toml": "0bfe776bf1ab067859392b387080ec4c",
-    "x86_64::model_config/model-config-dtu.toml": "72fa12309e17b927100bed6a08e22846",
+    "x86_64::model_config/model-config-dtu.toml": "58d5c0b2488a62d402b3d83c53c10cfb",
     "x86_64::model_config/readme_dtu.txt": "749dd19c33fac8d190ce5d1072e4f829",
     "x86_64::model_config/site/www.agsvpt.com.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "x86_64::model_config/site/audiences.me.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
@@ -194,7 +194,7 @@
     "x86_64::templates/index.html": "39463ff63fc8c8c2590168cd759d371b",
     "x86_64::templates/detail.html": "8a2198b4d141672b3ccee5dd5ce974ca",
     "x86_64::templates/favicon.ico": "55078cdefc012622fb33347af42b1c0e",
-    "x86_64::templates/config.html": "63f8f90db685fa0f83db79b5602278b8",
+    "x86_64::templates/config.html": "79ba78ffe4d9f4d99f98e07ff7b3c999",
     "x86_64::templates/interface.html": "49c83e3a1e932150f78541a06a6dfdd7",
     "aarch64::./image_bed/bed_agsvpt.py": "581ac3f4f5d981ca90e1a5424161a639",
     "aarch64::./image_bed/bed_smms.py": "d47d46a1b34fd206d0e10369740c305b",
@@ -295,7 +295,7 @@
     "aarch64::./util/tools.py": "c69195c9f4eae3b2cd80e075181f7e14",
     "aarch64::model_config/each_site.toml": "0e02f1d5d73f701d6f0c22716db45f7c",
     "aarch64::model_config/model-forbidden.toml": "0bfe776bf1ab067859392b387080ec4c",
-    "aarch64::model_config/model-config-dtu.toml": "72fa12309e17b927100bed6a08e22846",
+    "aarch64::model_config/model-config-dtu.toml": "58d5c0b2488a62d402b3d83c53c10cfb",
     "aarch64::model_config/readme_dtu.txt": "749dd19c33fac8d190ce5d1072e4f829",
     "aarch64::model_config/site/www.agsvpt.com.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "aarch64::model_config/site/audiences.me.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
@@ -390,10 +390,10 @@
     "aarch64::templates/index.html": "39463ff63fc8c8c2590168cd759d371b",
     "aarch64::templates/detail.html": "8a2198b4d141672b3ccee5dd5ce974ca",
     "aarch64::templates/favicon.ico": "55078cdefc012622fb33347af42b1c0e",
-    "aarch64::templates/config.html": "63f8f90db685fa0f83db79b5602278b8",
+    "aarch64::templates/config.html": "79ba78ffe4d9f4d99f98e07ff7b3c999",
     "aarch64::templates/interface.html": "49c83e3a1e932150f78541a06a6dfdd7",
     "x86_64::./util/upgrade_checker.py": "ef577ce671314411c9b1e58bce53b74c",
     "aarch64::./util/upgrade_checker.py": "ef577ce671314411c9b1e58bce53b74c"
   },
-  "last_git_commit": "7c04763b5af6a732f34b75db205f796c55f2be74"
+  "last_git_commit": "49c25f59ed72eedbbe316afd1f93ba48a9b7bed3"
 }

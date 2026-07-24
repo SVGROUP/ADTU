@@ -726,6 +726,11 @@
                     <input type="number" id="pieces" name="image_bed.pieces" value="4" min="1" max="9">
                     <div class="help-text">截取N张图片</div>
                 </div>
+                <div class="form-item">
+                    <label for="pixhost_domain">pixhost 自定义域名</label>
+                    <input type="text" id="pixhost_domain" name="image_bed.image_domain.pixhost" value="">
+                    <div class="help-text">pixhost图床域名，可填pixhost.cc或pixhost.to，留空用默认</div>
+                </div>
             </div>
 
             <!-- 新增的图床Token配置 -->
@@ -966,6 +971,10 @@
             document.getElementById('bed_use').value = config.image_bed.bed_use;
             document.getElementById('picture_type').value = config.image_bed.picture_type;
             document.getElementById('pieces').value = config.image_bed.pieces;
+
+            if (config.image_bed.image_domain) {
+                document.getElementById('pixhost_domain').value = config.image_bed.image_domain.pixhost || '';
+            }
 
             if (config.image_bed.token) {
                 document.getElementById('agsvpt_token').value = Array.isArray(config.image_bed.token.agsvpt) ?
@@ -1413,6 +1422,12 @@
         document.getElementById('pieces').addEventListener('blur', function () {
             if (!new_config.image_bed) new_config.image_bed = {};
             new_config.image_bed.pieces = parseInt(this.value);
+        });
+
+        document.getElementById('pixhost_domain').addEventListener('blur', function () {
+            if (!new_config.image_bed) new_config.image_bed = {};
+            if (!new_config.image_bed.image_domain) new_config.image_bed.image_domain = {};
+            new_config.image_bed.image_domain.pixhost = this.value;
         });
 
         document.getElementById('agsvpt_token').addEventListener('blur', function () {
