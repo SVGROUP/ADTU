@@ -62,12 +62,12 @@ button:hover {
 }
 
 .error {
-    background-color: #e74c3c;
+    background-color: var(--sv-danger-strong);
     color: white;
 }
 
 .success {
-    background-color: rgb(25, 106, 13);
+    background-color: var(--sv-success-strong);
     color: white;
 }
 
@@ -130,15 +130,15 @@ button:hover {
 }
 
 .torrent-table tr.downloaded-not-uploaded {
-    background-color: #ffffcc;
+    background-color: var(--sv-warning-soft);
 }
 
 .torrent-table tr.uploaded {
-    background-color: #ccffcc;
+    background-color: var(--sv-success-soft);
 }
 
 .torrent-table tr.skipped {
-    background-color: #ffcccc;
+    background-color: var(--sv-danger-soft);
 }
 
 .torrent-table tr:hover.downloading {
@@ -146,15 +146,15 @@ button:hover {
 }
 
 .torrent-table tr:hover.downloaded-not-uploaded {
-    background-color: #ffff99;
+    background-color: var(--sv-warning-soft-hover);
 }
 
 .torrent-table tr:hover.uploaded {
-    background-color: #99ff99;
+    background-color: var(--sv-success-soft-hover);
 }
 
 .torrent-table tr:hover.skipped {
-    background-color: #ff9999;
+    background-color: var(--sv-danger-soft-hover);
 }
 
 .table-container {

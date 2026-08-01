@@ -81,12 +81,12 @@ button:hover {
 }
 
 .result.error {
-    background-color: #e74c3c !important;
+    background-color: var(--sv-danger-strong) !important;
     color: white;
 }
 
 .result.success {
-    background-color: rgb(25, 106, 13) !important;
+    background-color: var(--sv-success-strong) !important;
     color: white;
 }
 
@@ -138,7 +138,7 @@ button:hover {
 }
 
 .site-list-btn {
-    background-color: #27ae60;
+    background-color: var(--sv-success-strong);
     color: white;
     padding: 8px 16px;
     border: none;
@@ -149,7 +149,7 @@ button:hover {
 }
 
 .site-list-btn:hover {
-    background-color: #229954;
+    background-color: var(--sv-success-strong-hover);
 }
 
 .modal {
