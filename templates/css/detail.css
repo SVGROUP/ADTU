@@ -2,33 +2,33 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f5f5f5;
+    background-color: var(--sv-page-bg);
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: white;
+    background-color: var(--sv-card-bg);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px var(--sv-shadow-1);
 }
 
 h1 {
-    color: #333;
+    color: var(--sv-text-2);
     text-align: center;
 }
 
 .api-section {
     margin-bottom: 30px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--sv-border-soft);
     border-radius: 5px;
 }
 
 .section-title {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
+    color: var(--sv-text-1);
+    border-bottom: 2px solid var(--sv-btn-strong);
     padding-bottom: 10px;
     margin-top: 0;
 }
@@ -42,14 +42,14 @@ label {
 input, select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--sv-border-soft);
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 button {
-    background-color: #3498db;
-    color: white;
+    background-color: var(--sv-btn-strong);
+    color: var(--sv-card-bg);
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -58,22 +58,22 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: var(--sv-btn-strong-hover);
 }
 
 .error {
     background-color: var(--sv-danger-strong);
-    color: white;
+    color: var(--sv-card-bg);
 }
 
 .success {
     background-color: var(--sv-success-strong);
-    color: white;
+    color: var(--sv-card-bg);
 }
 
 .back-button {
-    background-color: #95a5a6;
-    color: white;
+    background-color: var(--sv-neutral-strong);
+    color: var(--sv-card-bg);
     padding: 8px 16px;
     text-decoration: none;
     border-radius: 4px;
@@ -82,17 +82,17 @@ button:hover {
 }
 
 .back-button:hover {
-    background-color: #7f8c8d;
+    background-color: var(--sv-neutral-strong-hover);
 }
 
 .torrent-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--sv-border-soft);
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px var(--sv-shadow-1);
     min-width: 800px;
 }
 
@@ -100,8 +100,8 @@ button:hover {
 .torrent-table td {
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border-bottom: 1px solid var(--sv-border-soft);
+    border-right: 1px solid var(--sv-border-soft);
 }
 
 .torrent-table th:last-child,
@@ -110,7 +110,7 @@ button:hover {
 }
 
 .torrent-table th {
-    background-color: #f2f2f2;
+    background-color: var(--sv-page-bg);
     font-weight: bold;
     position: sticky;
     top: 0;
@@ -122,11 +122,11 @@ button:hover {
 }
 
 .torrent-table tr:hover {
-    background-color: #f5f5f5;
+    background-color: var(--sv-page-bg);
 }
 
 .torrent-table tr.downloading {
-    background-color: #e0e0e0;
+    background-color: var(--sv-border-soft);
 }
 
 .torrent-table tr.downloaded-not-uploaded {
@@ -142,7 +142,7 @@ button:hover {
 }
 
 .torrent-table tr:hover.downloading {
-    background-color: #d0d0d0;
+    background-color: var(--sv-border-strong);
 }
 
 .torrent-table tr:hover.downloaded-not-uploaded {
@@ -161,7 +161,7 @@ button:hover {
     width: 100%;
     overflow-x: auto;
     margin-top: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--sv-border-soft);
     border-radius: 5px;
     padding: 10px;
 }
@@ -192,9 +192,9 @@ button:hover {
 .filter-section {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #f9f9f9;
+    background-color: var(--sv-disabled-bg);
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--sv-border-soft);
 }
 
 .filter-controls {
