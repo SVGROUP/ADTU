@@ -89,7 +89,7 @@
     "x86_64::./operate_site/pt52.py": "9e9e30ce471a6dac87f2e860a1c435c4",
     "x86_64::./util/sqlite_operate.py": "698e51a313f77d195d817baadc68dffc",
     "x86_64::./util/site_config.py": "cf95c6ca3f35deddec8190d497c8e507",
-    "x86_64::./util/change_factory.py": "9301f0ea3a86a942973e433127db8eed",
+    "x86_64::./util/change_factory.py": "b041b0829ed02c113458258087ce362f",
     "x86_64::./util/ATUTException.py": "48c67d305041dabb58fdca3230fddefd",
     "x86_64::./util/util_rsa.py": "f258cc6640e0c6d5a1780dd14f493b52",
     "x86_64::./util/notice.py": "6ec671bf8d254da621d795c6f834f3a5",
@@ -285,7 +285,7 @@
     "aarch64::./operate_site/pt52.py": "9e9e30ce471a6dac87f2e860a1c435c4",
     "aarch64::./util/sqlite_operate.py": "698e51a313f77d195d817baadc68dffc",
     "aarch64::./util/site_config.py": "cf95c6ca3f35deddec8190d497c8e507",
-    "aarch64::./util/change_factory.py": "9301f0ea3a86a942973e433127db8eed",
+    "aarch64::./util/change_factory.py": "b041b0829ed02c113458258087ce362f",
     "aarch64::./util/ATUTException.py": "48c67d305041dabb58fdca3230fddefd",
     "aarch64::./util/util_rsa.py": "f258cc6640e0c6d5a1780dd14f493b52",
     "aarch64::./util/notice.py": "6ec671bf8d254da621d795c6f834f3a5",
@@ -511,7 +511,7 @@
     "aarch64::release/carpt.net.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "aarch64::release/index.css": "a29335960c48ff232271014feeeeda31",
     "aarch64::release/config.css": "374dfd7655b3f9b36690c62e4ad433a4",
-    "aarch64::release/compiled_hashes.json": "43f1a8854049d3e7b39c178574b9dab0",
+    "aarch64::release/compiled_hashes.json": "f919e96aced5264e6edeacc146e0c0ad",
     "aarch64::release/pt.eastgame.org.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "aarch64::release/cspt.top.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
     "aarch64::release/hdpt.xyz.toml": "d5df3730cb5c6bf4be136f9a1d3eb7c6",
@@ -537,7 +537,7 @@
     "aarch64::./operate_site/xdypt.py": "14d290ea0e958564fb099828ce43ff9c",
     "aarch64::model_config/site/xdypt.vip.toml": "0c83cb5477025145a8e512e67af5e08a",
     "aarch64::release/xdypt.vip.toml": "0c83cb5477025145a8e512e67af5e08a",
-    "aarch64::release/luckpt.cpython-313-x86_64-linux-gnu.so": "3bf8d89936421169d44c569fd41afe9d"
+    "aarch64::release/change_factory.cpython-313-x86_64-linux-gnu.so": "49ce35e0ae2e066403750be02a6d61a0"
   },
-  "last_git_commit": "7ad44d25ec32e8a5a856896c337582504429cf7c"
+  "last_git_commit": "ec9c1a42c4fb9aaf26f5d74f90f0f221ce0e10c5"
 }
